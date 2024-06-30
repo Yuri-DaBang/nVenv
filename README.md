@@ -14,7 +14,7 @@
 - ```Cleaning the Command Log```
     
 
-- <a href="#command-line-arguments">Command Line Arguments```
+# Command Line Arguments
     
 
 ## Prerequisites 🛠️
