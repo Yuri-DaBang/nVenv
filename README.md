@@ -12,11 +12,7 @@
 - ```Cloning an Environment```
 - ```Backing Up an Environment```
 - ```Cleaning the Command Log```
-    
-
-# Command Line Arguments
-    
-
+  
 ## Prerequisites 🛠️
     
 - Python 3.6 or higher 🐍
