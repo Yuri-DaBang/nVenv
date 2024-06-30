@@ -3,18 +3,18 @@
 - Welcome to the ultimate Environment Management Tool! 🎉 This tool lets you create, manage, and manipulate partial user spaces (environments) with custom directories and command logging on Windows. Plus, you get to encrypt your environments with a password for that extra layer of security! 🔒
 
 ## Table of Contents 📚
-- Prerequisites
-- Installation
-- Usage   
-- Creating an Environment</a>
-- Running Commands in an Environment</a>
-- Removing an Environment</a>
-- nt">Cloning an Environment</a>
-- Backing Up an Environment</a>
-- Cleaning the Command Log</a>
+- ```Prerequisites```
+- ``Installation```
+- ```Usage  ``` 
+- ```Creating an Environment```
+- ```Running Commands in an Environment```
+- ```Removing an Environment```
+- ```Cloning an Environment```
+- ```Backing Up an Environment```
+- ```Cleaning the Command Log```
     
 
-- <a href="#command-line-arguments">Command Line Arguments</a>
+- <a href="#command-line-arguments">Command Line Arguments```
     
 
 ## Prerequisites 🛠️
@@ -43,7 +43,7 @@
 
 ### Creating an Environment 🌱
   - Ready to create a new environment? Use the ```mkenv``` command:
-    ```python script.py mkenv ;name; ;password; [-loc ;location;] [-temp] [-run]```
+    ```python script.py mkenv name password [-loc location] [-temp] [-run]```
     
     - ```name```: Name of the environment. 🎨
       - ```password```: Password for encryption. 🔒
@@ -54,7 +54,7 @@
 
 ### Running Commands in an Environment 💻
   - Run commands in your super cool environment with the ```run``` command:
-    ```python script.py run ;name; ;password; [-loc ;location;]```
+    ```python script.py run name password [-loc location]```
     
 - ```name```: Name of the environment. 🎨
 - ```password```: Password for encryption. 🔒
@@ -63,7 +63,7 @@
 
 ### Removing an Environment 🗑️
   - Say goodbye to an environment and move it to ```TrashENVs``` with the ```rmenv``` command:
-    ```python script.py rmenv ;name; ;password; [-loc ;location;]```
+    ```python script.py rmenv name password [-loc location]```
     
 - ```name```: Name of the environment. 🎨
 - ```password```: Password for encryption. 🔒
@@ -72,7 +72,7 @@
 
 ### Cloning an Environment 🧬
   - Clone your environment like a mad scientist with the ```clenv``` command:
-    ```python script.py clenv ;target_name; ;new_name; ;password; [-loc ;location;]```
+    ```python script.py clenv target_name new_name password [-loc location]```
     
 - ```target_name```: Name of the environment to clone. 🧬
 - ```new_name```: Name for the new cloned environment. 🆕
@@ -82,7 +82,7 @@
 
 ### Backing Up an Environment 💾
   - Never lose your hard work! Back up your environment with the ```backup``` command:
-    ```python script.py backup ;name; ;password; [-loc ;location;]```
+    ```python script.py backup name password [-loc location]```
     
 - ```name```: Name of the environment. 🎨
 - ```password```: Password for encryption. 🔒
@@ -91,7 +91,7 @@
 
 ### Cleaning the Command Log 🧹
   - Keep things tidy! Clean the command log with the ```clean``` command:
-```python script.py clean ;name; ;password; [-loc ;location;]```
+```python script.py clean name password [-loc location]```
     
 - ```name```: Name of the environment. 🎨
 - ```password```: Password for encryption. 🔒
@@ -101,12 +101,12 @@
 ### Command Line Arguments 📝
   - Here's a quick overview of all the commands and their arguments:
     
-- ```mkenv ;name; ;password; [-loc ;location;] [-temp] [-run]``` — Create a new environment. 🌱
-- ```run ;name; ;password; [-loc ;location;]``` — Run commands in an existing environment. 💻
-- ```rmenv ;name; ;password; [-loc ;location;]``` — Remove an environment. 🗑️
-- ```clenv ;target_name; ;new_name; ;password; [-loc ;location;]``` — Clone an environment. 🧬
-- ```backup ;name; ;password; [-loc ;location;]``` — Back up an environment. 💾
-- ```clean ;name; ;password; [-loc ;location;]``` — Clean the command log of an environment. 🧹
+- ```mkenv name password [-loc location] [-temp] [-run]``` — Create a new environment. 🌱
+- ```run name password [-loc location]``` — Run commands in an existing environment. 💻
+- ```rmenv name password [-loc location]``` — Remove an environment. 🗑️
+- ```clenv target_name new_name password [-loc location]``` — Clone an environment. 🧬
+- ```backup name password [-loc location]``` — Back up an environment. 💾
+- ```clean name password [-loc location]``` — Clean the command log of an environment. 🧹
     
 
 - And there you have it! Enjoy managing your environments like a pro! 😎
