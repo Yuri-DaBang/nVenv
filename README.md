@@ -4,7 +4,7 @@
 
 ## Table of Contents 📚
 - ```Prerequisites```
-- ``Installation```
+- ```Installation```
 - ```Usage  ``` 
 - ```Creating an Environment```
 - ```Running Commands in an Environment```
